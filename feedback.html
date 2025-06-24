@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    
+  <header class="header">
+    <div class="left-section">
+      <a href="website.html">
+        <img src="itu.png" alt="Logo" class="logo-img">
+      <h2 class="brand">Techdut</h2>
+        </a>
+    </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button class="search-button">🔍</button>
+        </div>
+
+        <div class="right-section">
+            <div class="lang-switch">
+                <span class="active-lang">ENG</span> | <span>IDN</span>
+            </div>
+            <button class="signin">Sign in</button>
+            <button class="signup">Sign up</button>
+        </div>
+    </header>
+
+    <div class="back button">
+        <a href="website.html" class="back">
+        <img src="button/back.png" alt="">
+        Back </a>
+    </div>
+
+
+    <div class="title">Feedback</div>
+
+<div class="feedback-container">
+  <div class="feedback-card">
+    <div class="user-info">
+      <div class="user-icon">👤</div>
+      <span class="username">Guest1122336</span>
+    </div>
+    <hr class="divider" />
+
+    <div class="emoji-row">
+  <span class="emoji" data-value="😟">😟</span>
+  <span class="emoji" data-value="😐">😐</span>
+  <span class="emoji" data-value="😊">😊</span>
+  <span class="emoji" data-value="😍">😍</span>
+</div>
+
+<textarea id="feedback-text" placeholder="Input your feedback..." class="feedback-textarea"></textarea>
+
+  </div>
+  <div class="send-btn-container">
+ <button class="send-button">Send</button>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="feedback.js"></script>
+
+</body>
+</html>
